@@ -2,6 +2,11 @@
 import { ref, reactive, onMounted, computed } from 'vue'
 import Alerta from './components/Alerta.vue'
 import Spinner from './components/Spinner.vue'
+import useCripto from './composables/useCripto';
+
+const {  } = useCripto()
+
+
 const monedas = ref([
   { codigo: 'USD', texto: 'Dolar de Estados Unidos' },
   { codigo: 'MXN', texto: 'Peso Mexicano' },

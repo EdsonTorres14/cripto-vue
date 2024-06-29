@@ -1,0 +1,9 @@
+Composables 
+
+Es una función que aprovecha la Composition API de VUE para encapsular y reutilizar la lógica y el state.
+
+Cuando crear aplicaciones web te darás cuenta que hay código que es común en diferentes tareas; usualmente creamos un archivo 
+con funciones; pero para mantener la re-actividad y buenas prácticas de vue.js se recomienda crear un Composable.
+
+
+use Auth, use Api, UseMouse, useFormulario
